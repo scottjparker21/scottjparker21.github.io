@@ -7,10 +7,22 @@ p {
  body {
   background-color: #E8E8E8; margin: 0px;
 }
-
-
-
-
-
-
+#maintext {
+background-color: #669999;
+border: solid 2px #006666;
+padding: 15px;
+margin-bottom: 25px;
+}
+#headingtext {
+  background-color: #669999;
+  border: solid 2px #006666;
+  padding: 20px;
+  margin-bottom: 20;
+}
+#famphoto {
+  padding: 30px;
+  margin-bottom: 20px  ;
+  width:50%;
+}
+}
 </style>
