@@ -1,15 +1,23 @@
 <style>
+html {
+  margin: 0px;
+}
 p {
     font-family: helvetica;
     color: #696969;
   }
 
  body {
-  background-color: #E8E8E8; margin: 0px;
+  background-color: #E8E8E8;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 #maintext {
 background-color: #669999;
-border: solid 2px #006666;
+border: solid 1px #000000;
 padding: 15px;
 margin-bottom: 25px;
 }
