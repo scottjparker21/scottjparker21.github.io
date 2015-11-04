@@ -40,13 +40,19 @@
 
 <body>
   <script>
-           function getposts(){
-                $.getJSON("entries.json", function( data ) {
+           // function getposts(){
+           //      $.getJSON("entries.json", function( data ) {
+           //          $.each(data, function(key, value) {
+           //              console.log(value['text']);
+           //          });
+           //      });
+           //  }
+
+               $.getJSON("entries.json", function( data ) {
                     $.each(data, function(key, value) {
                         console.log(value['text']);
                     });
                 });
-            }
 </script>
 
   <div class=""></div>
