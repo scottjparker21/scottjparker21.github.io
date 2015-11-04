@@ -1,5 +1,20 @@
 #navlogo {
-	width: 35px;
-	margin-top: -15px;
-	margin-bottom:;
+	width: 40px;
+	margin-top: -9px;
+	
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #5C6468;
+}
+#homebanner {
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: black;
+	height: 100px;
+	width: 100%;
+}
+.navbar-default {
+	margin-bottom: 0px;
 }

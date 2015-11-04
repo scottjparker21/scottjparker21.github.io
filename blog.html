@@ -24,9 +24,9 @@
     		</div>
     		<div class="collapse navbar-collapse" id="myNavbar">
       			<ul class="nav navbar-nav">
-       			<li class="active"><a href="index.html">Home</a></li>
+       			<li><a href="index.html">Home</a></li>
         		<li><a href="portfolio.html">Portfolio</a></li>
-        		<li><a href="blog.html">Blog</a></li>
+        		<li class="active"><a href="blog.html">Blog</a></li>
         		<li><a href="projects.html">Projects</a></li>
             <li><a href="template.html">Template</a></li>
       			</ul>
@@ -37,9 +37,17 @@
     		</div>
   		</div>
 	</nav>
-  <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="homebanner">
-      </div>
+  <div class="container">
+      <div class="col-lg-12">
+        <script>
+                      function getposts(){
+                $.get("entries.json", function( data ) {
+                    $.each(data, function(key, value) {
+                        console.log(value['text']);
+                    });
+                });
+            }
+        </script>
   </div>
 <body>
 </body>
