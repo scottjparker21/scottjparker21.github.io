@@ -40,10 +40,17 @@
 
 <body>
  <script>
-      $.getJSON('entries.json', function(date) {
-            console.log('it worked!');
-        });
+      $.ajax({
+            url: 'entries.json',
+            dataType: 'json',
+            type: 'get',
+            cache: false,
+            success: function(data) {
+                console.log(data);
+            }
+      });
 </script>
+
 
   <div class=""></div>
 
