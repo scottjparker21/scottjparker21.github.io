@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
 <head>
 	<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
 	<meta charset="utf-8">
@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+<body>
 	<nav class="navbar navbar-inverse">
   		<div class="container-fluid">
     		<div class="navbar-header">
@@ -38,8 +39,10 @@
   		</div>
 	</nav>
 
-<body>
+
  <script>
+ "use strict";
+
  console.log("im running");
      function getposts(){
         console.log("hopefully im at least jogging");
@@ -47,7 +50,7 @@
             console.log("im still running");
                 console.log(data);
             $.each(data.posts, function(key, value) {
-                console.log(value['text']);
+                console.log(value.t);
             });
         });
     }
@@ -56,11 +59,5 @@
 
 </script>
 
-
-
-  <div class=""></div>
-
-
-  <script src=""></script>
 </body>
 </html>
