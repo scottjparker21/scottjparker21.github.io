@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-  <html>
-  <head>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  </head>
-  <body>
-    <script>
-   "use strict";
-   function getposts(){
-       $.getJSON("entries.json", function( data ) {
-           $.each(data.posts, function(key, value) {
-               console.log(value.t);
-               console.log(value.h);
-               console.log(value.c);
-           });
-       });
-   }
-   getposts();
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+  <script>
+ "use strict";
+ function getposts(){
+     $.getJSON("entries.json", function( data ) {
+         $.each(data.posts, function(key, value) {
+             console.log(value.t);
+             console.log(value.h);
+             console.log(value.c);
+         });
+     });
+ }
+ getposts();
 </script>
-  </body>
-  </html>
+</body>
+</html>
