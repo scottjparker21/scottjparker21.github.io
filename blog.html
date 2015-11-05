@@ -40,24 +40,21 @@
 	</nav>
 
 
- <script>
- "use strict";
 
- console.log("im running");
-     function getposts(){
-        console.log("hopefully im at least jogging");
-        $.getJSON("entries.json", function( data ) {
-            console.log("im still running");
-                console.log(data);
-            $.each(data.posts, function(key, value) {
-                console.log(value.t);
-            });
-        });
-    }
-
-    getposts();
-
+<script>
+   "use strict";
+   function getposts(){
+       $.getJSON("entries.json", function( data ) {
+           $.each(data.posts, function(key, value) {
+               console.log(value.t);
+               console.log(value.h);
+               console.log(value.c);
+           });
+       });
+   }
+   getposts();
 </script>
+
 
 </body>
 </html>
