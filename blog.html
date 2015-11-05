@@ -41,7 +41,7 @@
 <body>
  <script>
      function getposts(){
-        $.getJSON("entries.json", function( data ) {
+        $.get("entries.json", function( data ) {
                 console.log(data);
             $.each(data.posts, function(key, value) {
                 console.log(value['text']);
