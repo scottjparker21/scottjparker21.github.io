@@ -41,12 +41,13 @@
 <body>
  <script>
      function getposts(){
-        $.get("entries.json", function( data ) {
-            $.each(data, function(key, value) {
+        $.getJSON("entries.json", function( data ) {
+            $.each(data.posts, function(key, value) {
                 console.log(value['text']);
             });
         });
     }
+
 </script>
 
 
