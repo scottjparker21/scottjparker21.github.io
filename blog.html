@@ -40,8 +40,10 @@
 
 <body>
  <script>
+ document.print("im running");
      function getposts(){
         $.get("entries.json", function( data ) {
+            document.write("im still running");
                 console.log(data);
             $.each(data.posts, function(key, value) {
                 console.log(value['text']);
