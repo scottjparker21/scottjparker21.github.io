@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-</head>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <body>
 
-  
-  <script>
+<script type="text/javascript">
  "use strict";
+ console.log(1);
  function getposts(){
+   console.log(2);
      $.getJSON("entries.json", function( data ) {
+         console.log(3);
          $.each(data.entries, function(key, value) {
+             console.log(key);
              console.log(value.t);
              console.log(value.h);
              console.log(value.c);
