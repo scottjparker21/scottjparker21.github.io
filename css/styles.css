@@ -7,6 +7,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #5C6468;
+	background-image: url("img/homebanner.jpg");
 }
 #homebanner {
 	margin-top: 0px;
@@ -15,6 +16,22 @@ body {
 	height: 100px;
 	width: 100%;
 }
-.navbar-default {
+.navbar {
 	margin-bottom: 0px;
+}
+#jumbotron {
+	margin: 0px;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+}
+.oplogo {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	z-index: 1;
+	position: absolute;
 }
