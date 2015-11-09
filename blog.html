@@ -1,21 +1,33 @@
 <!DOCTYPE html>
  <html>
  <head>
+    <link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SJP | Blog</title>
    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
  </head>
  <body>
    <script>
   "use strict";
   function getposts(){
       $.getJSON("entries.json", function( data ) {
+
+        var entries = [];
+
           $.each(data.posts, function(key, value) {
+                entries.push(value.t + <br> + value.h + <br> + value.c + <br>);
+
               console.log(value.t);
               console.log(value.h);
               console.log(value.c);
-              document.write(value.t)<br>;
-              document.write(value.h)<br>;
-              document.write(value.c)<br>;
+             
           });
+          
       });
   }
   getposts();
