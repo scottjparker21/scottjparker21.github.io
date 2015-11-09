@@ -2,47 +2,37 @@
 	"posts":[
 		{
 		"t":"03/17/2015",
-		"h":"post one",
+		"h":"Week One",
 		"c":"this is the content of post one."
 		},
 		{
 		"t":"03/18/2015",
-		"h":"post two",
+		"h":"Week Two",
 		"c":"this is the content of post two."
 		},
 		{
 		"t":"03/18/2015",
-		"h":"post three",
+		"h":"Week Three",
 		"c":"this is the content of post two."
 		},
 		{
 		"t":"03/18/2015",
-		"h":"post four",
+		"h":"Week Four",
 		"c":"this is the content of post two."
 		},
 		{
 		"t":"03/18/2015",
-		"h":"post five",
+		"h":"Week Five",
 		"c":"this is the content of post two."
 		},
 		{
 		"t":"03/18/2015",
-		"h":"post sixe",
+		"h":"Week Six",
 		"c":"this is the content of post two."
 		},
 		{
 		"t":"03/18/2015",
-		"h":"post seven",
-		"c":"this is the content of post two."
-		},
-		{
-		"t":"03/18/2015",
-		"h":"po1st seven",
-		"c":"this is the content of post two."
-		},
-		{
-		"t":"03/18/2015",
-		"h":"po2st seven",
+		"h":"Week Seven",
 		"c":"this is the content of post two."
 		}
 	]
