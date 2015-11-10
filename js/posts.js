@@ -16,7 +16,7 @@
 		  $('document').ready(function()) {
 
 		  		var perPage = 4;
-		  		var postTotal = $('#content').children().size();
+		  		var postTotal = $('#posts').children().size();
 		  		var pageTotal = Math.ceil(postTotal/perPage);
 
 		  		$('#currentPage').val(0);
@@ -59,9 +59,9 @@
 			
 			var ShowPerPage = parseInt($('#ShowPerPage').val());
 
-			startFrom = pageNum * ShowPerPage;
+			var startFrom = pageNum * ShowPerPage;
 
-			endOn = startFrom + ShowPerPage;
+			var endOn = startFrom + ShowPerPage;
 
 			$('#content').children().css('display','none').slice(startFrom, endOn).css('display','block');
 
