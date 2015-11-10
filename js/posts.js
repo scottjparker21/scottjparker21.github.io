@@ -68,6 +68,7 @@
 			$('.pageLink[longdesc=' + pageNum +']').addClass('activePage').siblings('.activePage').removeClass('activePage');
 
 			$('#currentPage').val(pageNum);
+			console.log('made it');
 		}
 	}
 
