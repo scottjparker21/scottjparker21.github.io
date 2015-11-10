@@ -74,7 +74,7 @@ h2{
 #date{
 	font-size: 18px;
 	color: white;
-	background-color: AntiqueWhite;
+	background-color: black;
 	padding-left: 20px;
 	margin-top: 10px;
 }
@@ -82,9 +82,9 @@ h2{
 	font-size: 28px;
 	color: black;
 	padding-left: 30px;
-
+	color: white;
 }
 #postcontent {
 	color: black;
-	padding-left: 40;
+	padding-left: 40px;
 }
