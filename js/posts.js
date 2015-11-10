@@ -22,13 +22,13 @@
 		  		$('#currentPage').val(0);
 		  		$('#perPage').val(perPage);
 
-		  		var pageNav = '<a class="previousPage" href="javascript:previous();">' Prev '</a>';
+		  		var pageNav = '<a class="previousPage" href="javascript:previous();"> Prev </a>';
 		  		var currentLink = 0;
 		  		while(pageTotal > currentLink){
 		  			pageNav += '<a class="nextLink" href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">' + (currentLink + 1) + '</a>';
 		  			current_link++;
 		  		}
-		  		pageNav += '<a class="nextLink" href="javascript:next();">' Next '</a>';
+		  		pageNav += '<a class="nextLink" href="javascript:next();"> Next </a>';
 
 		  		$('#pageNav').html(pageNav);
 
