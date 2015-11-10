@@ -11,9 +11,9 @@
 		          });
 		      });
 		  }
-		  $('document').ready(getposts);
+		 
 
-		  $('document').ready(function()) {
+		  function nav() {
 
 		  		var perPage = 4;
 		  		var postTotal = $('#posts').children().size();
@@ -69,4 +69,6 @@
 
 			$('#currentPage').val(pageNum);
 		}
+
+		 $('document').ready(getposts);
 		
