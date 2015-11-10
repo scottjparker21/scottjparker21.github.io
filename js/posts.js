@@ -50,7 +50,7 @@
 		function next() {
 			newPage = parseInt($('#currentPage').val()) - 1;
 
-				if($('.activePage').next('.page_link').length==true) {
+				if($('.activePage').next('.pageLink').length==true) {
 						goToPage(newPage);
 				}
 
