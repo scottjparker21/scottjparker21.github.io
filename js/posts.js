@@ -10,7 +10,7 @@
 		              $('#posts').append('<p id="postcontent">' + value.c  + '</p>' + "<br>");
 		          });
 		      });
-		  }
+		  
 		 
 
 		  function nav() {
@@ -38,7 +38,7 @@
 
 		  		$('#content').children().slice(0, perPage).css('display','block');
 
-		  });
+		  };
 
 		function previous() {
 			newPage = parseInt($('#perPage')).val()) - 1;
@@ -69,6 +69,7 @@
 
 			$('#currentPage').val(pageNum);
 		}
+	}
 
 		 $('document').ready(getposts);
 		
