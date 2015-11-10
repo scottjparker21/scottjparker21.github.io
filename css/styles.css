@@ -72,6 +72,13 @@ h2{
 	margin-bottom: 15px;
 }
 #date{
-	size: 20px;
-
+	size: 40px;
+	color: white;
+}
+#title {
+	size: 50px;
+	color: black;
+}
+#postcontent {
+	color: black;
 }
