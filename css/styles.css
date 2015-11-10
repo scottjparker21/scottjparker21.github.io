@@ -77,12 +77,15 @@ h2{
 	background-color: black;
 	padding-left: 20px;
 	margin-top: 10px;
+
 }
 #title {
 	font-size: 28px;
 	color: black;
 	padding-left: 30px;
 	color: white;
+	border-radius: 15px;
+	background-color: black;
 }
 #postcontent {
 	color: black;
