@@ -41,7 +41,7 @@
 		  };
 
 		function previous() {
-			newPage = parseInt($('#perPage')).val()) - 1;
+			newPage = parseInt($('#perPage').val()) - 1;
 
 			if($('.activePage').next('.pageLink').length===true) {
 				goToPage(newPage);
