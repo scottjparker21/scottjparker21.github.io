@@ -57,11 +57,11 @@
 		}
 		function goToPage(pageNum) {
 			
-			var ShowPerPage = parseInt($('#ShowPerPage').val());
+			var ShowPerPage = parseInt($('#perPage').val());
 
-			var startFrom = pageNum * ShowPerPage;
+			var startFrom = pageNum * perPage;
 
-			var endOn = startFrom + ShowPerPage;
+			var endOn = startFrom + perPage;
 
 			$('#posts').children().css('display','none').slice(startFrom, endOn).css('display','block');
 
