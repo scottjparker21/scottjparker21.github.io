@@ -14,15 +14,27 @@ function getposts(){
             $('#posts').append('</div>');
 
         });
-        pager(obj);
+        pager(0);
     });	  
 }
 
+
+
 function pager(obj){
+
+	var index = obj;
+	var perPage = 4;
+	var postTotal = $('#posts').children().size();
+		console.log(postTotal/3);
+	var pageTotal = Math.ceil(postTotal/perPage);
+		console.log(pageTotal);
+
 	$('#posts').append('<button id="back" class="turn" value="back">back</button> <button id="next" class="turn" value="next">next</button>');
 }
 
-$('button.turn').on("click", function(){
+$('button.turn.back').on("click", function(){
+		$('#posts').hide();
+		// if(var i=1; )
 	// when clicked, switch which posts are displayed
 	// you may want to set the id of the button equal to 
 	// the post # of where you want to start
