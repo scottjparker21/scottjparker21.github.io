@@ -6,8 +6,16 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: #5C6468;
+	/*background-color: #5C6468;*/
 	
+}
+/*background gradient*/
+#grad1 {
+    height: auto;
+    background: -webkit-linear-gradient(#363c3e, #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#363c3e, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#363c3e, #000000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#363c3e, #000000); /* Standard syntax (must be last) */
 }
 .jumbotron {
 	background-image: url(../img/homebanner.jpg);
@@ -95,3 +103,75 @@ h2{
 	height: auto;
 	
 }
+#projps {
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+
+}
+#homeskills {
+	color: white;
+}
+  /* home page media queries*/
+
+@media only screen and (max-width : 767px){
+	.homeddp {
+		font-size: 20px;
+		text-align: center;
+		position: relative;
+		
+	}
+	#icons {
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h3 {
+		text-align: center;		
+	}
+	h1 {
+		text-align: center;
+		color: white;
+	}
+	#profpic {
+		position: relative;
+		display: block;
+		margin-left: auto;	
+		margin-right: auto;
+	}
+}
+
+	.site-footer {
+	    background: -webkit-linear-gradient(#363c3e, #000000); /* For Safari 5.1 to 6.0 */
+	    background: -o-linear-gradient(#363c3e, #000000); /* For Opera 11.1 to 12.0 */
+	    background: -moz-linear-gradient(#363c3e, #000000); /* For Firefox 3.6 to 15 */
+	    background: linear-gradient(#363c3e, #000000); /* Standard syntax (must be last) */
+		width:auto;
+		height:100px;
+		margin-top:50px;
+	}
+
+/*   portfolio media queries*/
+	
+	@media only screen and (max-width : 767px){
+		.portfoliokite {
+				margin-bottom: 30px;
+		}
+		#bushead {
+			color: white;
+			display: block;
+			text-align: center;
+		}
+		#projps {
+
+			font-size: 16px;
+		}
+		#projthumbs {
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+	}

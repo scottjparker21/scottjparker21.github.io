@@ -7,14 +7,14 @@ function getposts(){
         	console.log("key: " + key + " value: ");
         	console.log(value);
             // entries.push(value.t + "<br>" + value.h + "<br>" + value.c + "<br>");
-            $('#posts').append('<div id="' + key + '">');
+            $('#posts').append('<div id="' + key + '" class="blogPosts">');
             $('#posts').append('<p id="date">' + value.t + '</p>' + "<br>");
             $('#posts').append('<p id="title">' + value.h  + '</p>' + "<br>");
             $('#posts').append('<p id="postcontent">' + value.c  + '</p>' + "<br>");
             $('#posts').append('</div>');
 
         });
-        pager(0);
+        pager(obj);
     });	  
 }
 
@@ -22,18 +22,18 @@ function getposts(){
 
 function pager(obj){
 
-	var index = obj;
-	var perPage = 4;
-	var postTotal = $('#posts').children().size();
-		console.log(postTotal/3);
-	var pageTotal = Math.ceil(postTotal/perPage);
-		console.log(pageTotal);
+	var currentPage = obj;
+	// var perPage = 4;
+	// var postTotal = $('#posts').children().size();
+	// 	console.log(postTotal/3);
+	// var pageTotal = Math.ceil(postTotal/perPage);
+	// 	console.log(pageTotal);
 
 	$('#posts').append('<button id="back" class="turn" value="back">back</button> <button id="next" class="turn" value="next">next</button>');
 }
 
-$('button.turn.back').on("click", function(){
-		$('#posts').hide();
+$('button.turn').on("click", function(){
+		$("#blogPosts").hide();
 		// if(var i=1; )
 	// when clicked, switch which posts are displayed
 	// you may want to set the id of the button equal to 
