@@ -89,7 +89,6 @@ function pager(curPage, ppp){
 	
 	$('#posts > div.blogPosts').hide();
 	var pageTotal = $('div.blogPosts').size();
-	console.log(pageTotal);
 	var numPages = Math.floor(pageTotal/ppp);
 
 	for(var i = curPage*ppp; i < (curPage+1)*ppp; i++) {
