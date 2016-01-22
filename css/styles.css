@@ -203,7 +203,7 @@ h2{
 	    background: -moz-linear-gradient(#363c3e, #000000); /* For Firefox 3.6 to 15 */
 	    background: linear-gradient(#363c3e, #000000); /* Standard syntax (must be last) */
 		width:auto;
-		height:100px;
+		height:80px;
 		margin-top:50px;
 	}
 
