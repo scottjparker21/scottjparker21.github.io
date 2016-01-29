@@ -1,0 +1,97 @@
+html{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+p {
+	color: black;
+}
+h3 {
+	color: white;
+}
+body{
+  
+    background-image: url("../img/thisbackground.jpg");
+    background-repeat: no-repeat;
+ 
+}
+.navbar{
+
+	margin-bottom: 0px;
+}
+#navlogo {
+	width: 40px;
+	margin-top: -9px;
+	
+}
+.container{
+
+	/*background-color: white;*/
+	height: 100%;
+	margin-bottom: 0px;
+	
+}
+#jlhead {
+
+	color: black;
+	text-align: center;
+	font-family: 'Tangerine', cursive;
+	font-size: 100px;
+	margin-top: 15px;
+	margin-bottom: 9px;
+}
+#shelves {
+
+	display: block;
+	width: 75%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+
+}
+#subtitle {
+	font-family: 'Lora', serif;
+	width: 100%;
+	margin-bottom: 30px;
+	background-color: black;
+	padding: 15px;
+}
+.contact {
+
+	margin-top: 5px;
+	margin-left: 40px;
+
+}
+#white {
+
+	color: white;
+}
+input{
+   text-align:center;
+}
+select {
+	margin-left: 8px;
+
+}
+
+/*SITE FOOTER*/
+
+
+.site-footer {
+	    background: -webkit-linear-gradient(#363c3e, #000000); /* For Safari 5.1 to 6.0 */
+	    background: -o-linear-gradient(#363c3e, #000000); /* For Opera 11.1 to 12.0 */
+	    background: -moz-linear-gradient(#363c3e, #000000); /* For Firefox 3.6 to 15 */
+	    background: linear-gradient(#363c3e, #000000); /* Standard syntax (must be last) */
+		width:auto;
+		height:100px;
+		margin-top:20px;
+	}
+
+
+
+
+
+
+
+ 

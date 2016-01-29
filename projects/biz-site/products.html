@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Orving Ocarinas</title>
+  <link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="#"><img src="assets/img/orving.png" alt="Orving Ocarinas logo" id="navlogo"></a>
+    		</div>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav">
+       			<li><a href="index.html">Home</a></li>
+        		<li ><a href="contact.html">Contact</a></li>
+            	<li class="active"><a href="products.html">Products</a></li>
+        		<li><a href="about.html">About</a></li>
+            	<li><a href=""></a></li>	
+    		</div>
+  		</div>
+	</nav>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <h1 id="jlhead"> Products </h1>
+          </div>
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col-lg-4">
+              <img src="assets/img/ocarina1.jpg" id="shelves" alt=" image ofSwirl Wide Mouth ocarina">
+              <center><p> Swirl Wide Mouth<select class="1-5"></select></p><p> &dollar;49.99 </p></center>
+          </div>
+          <div class="col-lg-4">
+              <img src="assets/img/ocarina2.jpg" id="shelves" alt="image of Floral Sweet Potato ocarina">
+              <center><p> Floral Sweet Potato<select class="1-5"></select></p><p> &dollar;49.99 </p></center>
+          </div>
+          <div class="col-lg-4">
+              <img src="assets/img/ocarina3.jpg" id="shelves" alt="image of Vine Sweet Potato ocarina">
+              <center><p> Vine Sweet Potato<select class="1-5"></select></p><p> &dollar;49.99 </p></center>
+          </div>
+          <div class="col-lg-4">
+              <img src="assets/img/ocarina5.jpg" id="shelves" alt="image of China Sweet Potato ocarina">
+              <center><p> China Sweet Potato<select class="1-5"></select></p><p> &dollar;49.99 </p></center>
+          </div>
+          <div class="col-lg-4">
+              <img src="assets/img/ocarina6.jpg" id="shelves" alt="image of Wooden Wide Mouth ocarina">
+              <center><p> Wooden Wide Mouth<select class="1-5"></select></p><p> &dollar;49.99 </p></center>
+          </div>
+          <div class="col-lg-4">
+              <img src="assets/img/ocarina7.jpg" id="shelves" alt="image of Yellow Sweet Potato ocarina">
+              <center><p> Yellow Sweet Potato<select class="1-5"></select></p><p> &dollar;49.99 </p></center>
+          </div>
+          <div class="col-lg-4">
+              <img src="assets/img/ocarina8.jpg" id="shelves" alt="image of Floral Red Sweet Potato ocarina">
+              <center><p> Floral Red Sweet Potato<select class="1-5"></select></p><p> &dollar;49.99 </p></center>
+          </div>
+          <div class="col-lg-4">
+              <img src="assets/img/ocarina9.jpg" id="shelves" alt="image of Green Sweet Potato ocarina">
+              <center><p> Green Sweet Potato<select class="1-5"></select></p><p> &dollar;49.99 </p></center>
+          </div>
+          <div class="col-lg-4">
+              <img src="assets/img/ocarina10.jpg" id="shelves" alt="image of Brown Sweet Potato ocarina">
+              <center><p> Brown Sweet Potato<select class="1-5"></select></p><p> &dollar;49.99 </p></center>
+          </div>
+      </div>
+  </div>
+	<footer class="site-footer">
+       <div class="row">
+        <div class="col-lg-6 col-md-6 contact">
+          <p id="white"> Contact Us At:<br>
+            &middotorville@ocarina.org<br>
+            &middot555-555-5555 </p>
+            <a href="sitemap.html" style="">Site Map</a>
+        </div>
+       </div>
+  </footer>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+    $(function(){
+        var $select = $(".1-5");
+        for (i=1;i<=5;i++){
+            $select.append($('<option></option>').val(i).html(i))
+        }
+      });
+    </script>
+</body>
+</html>
