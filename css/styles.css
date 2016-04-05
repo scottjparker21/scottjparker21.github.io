@@ -76,6 +76,9 @@ h2{
 	z-index: 2;
 
 }
+h3{
+	color: white;
+}
 #profpic {
 
 	height: auto;
@@ -103,7 +106,7 @@ h2{
 	text-align: center;
 }
 #homedivs{
-	background: grey;
+	background: gray;
 	margin: 15px;
 }
 #homedivs .vertcenter {
@@ -166,10 +169,14 @@ h2{
 	    background: -moz-linear-gradient(#363c3e, #000000); /* For Firefox 3.6 to 15 */
 	    background: linear-gradient(#363c3e, #000000); /* Standard syntax (must be last) */
 		width:auto;
-		height:80px;
+		height:50px;
 		margin-top:50px;
 	}
-  /* home page media queries*/
+#bushead {
+
+	color: white;
+}
+  /* home page media queries XS*/
 
 @media only screen and (max-width : 767px){
 	.homeddp {
@@ -221,7 +228,7 @@ h2{
 
 }
 
-/*   portfolio media queries*/
+/*   portfolio media queries XS*/
 	
 	@media only screen and (max-width : 767px){
 		.portfoliokite {
@@ -248,10 +255,17 @@ h2{
 		text-align: center;
 
 	}
+
 	/* LARGE SCREEN SIZE MEDIA QUERIES */
 	@media only screen and (max-width : 767px){
 
-		
+
+
+
+
+	}
+
+
 
 
 
