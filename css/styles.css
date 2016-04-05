@@ -1,0 +1,280 @@
+#navlogo {
+	width: 40px;
+	margin-top: -9px;
+	
+}
+p {
+
+	color: white;
+
+}
+#navname {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	/*background-color: #5C6468;*/
+	
+}
+/*background gradient*/
+#grad1 {
+    height: auto;
+    background: -webkit-linear-gradient(#363c3e, #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#363c3e, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#363c3e, #000000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#363c3e, #000000); /* Standard syntax (must be last) */
+}
+.jumbotron {
+	background-image: url(../img/homebanner.jpg);
+	background-size: cover;
+	margin-top: 0;
+	min-height: 400px;
+	position: relative;
+	background-position: 5% 50%;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+#homebanner {
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: black;
+	height: 100px;
+	width: 100%;
+}
+#banner {
+	
+	margin: 0px;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
+.oplogo {
+	position: absolute;
+	top: 68px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 3;
+	max-height: 200px;
+}
+h1{
+
+	display: block;
+	color: white;
+	text-align: center;
+}
+h2{
+
+	z-index: 2;
+
+}
+#profpic {
+
+	height: auto;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#icons {
+	display:block;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.homeddp {
+	position: absolute;
+	display: block;
+	top:300px;
+	z-index: 4;
+	color: white;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+#homedivs{
+	background: grey;
+	margin: 15px;
+}
+#homedivs .vertcenter {
+	vertical-align: middle;
+	display: inline-block;
+	max-height: 100%;
+	max-height: 100%;
+
+}
+#date{
+	font-size: 18px;
+	color: white;
+	background-color: black;
+	padding-left: 20px;
+	margin-top: 10px;
+
+}
+#title {
+	font-size: 28px;
+	padding-left: 30px;
+	color: black;
+	
+
+}
+#postcontent {
+	color: black;
+	padding-left: 40px;
+}
+#projthumbs {
+	width: 75%;
+	height: auto;
+	
+}
+#projps {
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+
+}
+#homeskills {
+	color: white;
+
+}
+/* delete me later please */
+.borderOutline {
+		background-color: gray;
+		margin:15px;
+
+}
+.paddingHome {
+
+	padding: 5px;
+	display: block;
+	text-align: center;
+}
+.site-footer {
+	    background: -webkit-linear-gradient(#363c3e, #000000); /* For Safari 5.1 to 6.0 */
+	    background: -o-linear-gradient(#363c3e, #000000); /* For Opera 11.1 to 12.0 */
+	    background: -moz-linear-gradient(#363c3e, #000000); /* For Firefox 3.6 to 15 */
+	    background: linear-gradient(#363c3e, #000000); /* Standard syntax (must be last) */
+		width:auto;
+		height:80px;
+		margin-top:50px;
+	}
+  /* home page media queries*/
+
+@media only screen and (max-width : 767px){
+	.homeddp {
+		font-size: 20px;
+		text-align: center;
+		position: relative;
+		
+	}
+	#icons {
+
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	h3 {
+		text-align: center;		
+	}
+	h1 {
+		text-align: center;
+		color: white;
+	}
+	#profpic {
+		position: relative;
+		display: block;
+		margin-left: auto;	
+		margin-right: auto;
+	}
+	.borderOutline {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+	
+
+@media only screen and (max-width : 991px) {
+
+	.borderOutline {
+
+		margin: 0px;
+	}
+
+
+
+
+
+}
+
+/*   portfolio media queries*/
+	
+	@media only screen and (max-width : 767px){
+		.portfoliokite {
+				margin-bottom: 30px;
+		}
+		#bushead {
+			color: white;
+			display: block;
+			text-align: center;
+		}
+		#projps {
+
+			font-size: 16px;
+		}
+		#projthumbs {
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+	}
+	/*BUTTONS!*/
+	#buttons {
+		text-align: center;
+
+	}
+	/* LARGE SCREEN SIZE MEDIA QUERIES */
+	@media only screen and (max-width : 767px){
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

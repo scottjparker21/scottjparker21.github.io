@@ -6,7 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SJP | Home</title>
-    <link href="css/ekko-lightbox.min.css" rel="stylesheet">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -24,8 +26,7 @@
     		<div class="collapse navbar-collapse" id="myNavbar">
       			<ul class="nav navbar-nav">
        			<li><a href="index.html">Home</a></li>
-        		<li class="active"><a href="portfolio.html">Graphics</a></li>
-            <li><a href="web.html">Web</a></li>
+        		<li class="active"><a href="portfolio.html">Portfolio</a></li>
         		<li><a href="blog.html">Blog</a></li>
         		<li><a href="projects.html">Projects</a></li>
             <li><a href=""></a></li>
@@ -37,47 +38,8 @@
     		</div>
   		</div>
 	</nav>
-
-   <!--  LIGHT BOX STYLES..MOVE LATER -->
-
-    <style type="text/css">
-            /* i like padding - you can ignore this css. see the actual css / less files in the repository for styling the gallery navigation */
-            div.row > div > div.row {
-                margin-bottom: 15px;
-            }
-            body {
-                padding-bottom: 50px;
-            }
-            div.top-header {
-                margin-bottom:100px;
-            }
-            h3.page-header {
-                margin-top: 50px;
-            }
-            figure {
-                position: relative;
-            }
-            figure figcaption {
-                font-size: 22px;
-                color: #fff;
-                text-decoration: none;
-                bottom: 10px;
-                right: 20px;
-                position: absolute;
-                background-color: #000;
-            }
-      code {
-        white-space: pre-wrap;       /* css-3 */
-        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-        white-space: -pre-wrap;      /* Opera 4-6 */
-        white-space: -o-pre-wrap;    /* Opera 7 */
-        word-wrap: break-word;       /* Internet Explorer 5.5+ */
-      }
-        </style>
-<!-- 
-        END LIGHTBOX STYLES -->
-
   <div class="container">
+<<<<<<< HEAD
 
     <div class="row">
       <h3> Some graphic stuff </h3>
@@ -127,62 +89,25 @@
 
 
         
+=======
+        <div class="row">
+              <div class="col-lg-6">
+                  <h2 id="bushead"> Business Site </h2>
+                      <p id="projps"> This website was made in collaboration with Becky Gahart. The assignment was to make a website for a made up business. We included several pages about the company and it's products.</p>
+                      <a href="assets/project-biz/index.html" target="_blank"><img id="projthumbs" src="img/peelthumb.jpg" alt="Homepage of Peel lemonade"></a>
+              </div>
+              
+
+              <div class="col-lg-6">
+                      <h2 id="bushead"> Business Site </h2>
+                      <p id="projps"> This website was made in collaboration with Seth McGathey. This was a mashup of two projects, both Seth and I had our partners leave the program midway through. We took components of each project that we were working on and teamed up to put them together. The finished product was a site that showcased our talents for kite building.</p>
+                      <a href="assets/project-team/index.html" target="_blank"><img id="projthumbs" src="img/teamthumb.jpg" alt="Home page for Keystone Kites" class="portfoliokite"></a>
+              </div>
+        </div>          
+>>>>>>> parent of bee5604... added light box to graphics page.
   </div>
   <footer class="site-footer">
    <p style="color:white"> copy right 2015 </p>
-  </footer>
-
-<!-- LIGHTBOX SCRIPTS -->
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="js/ekko-lightbox.min.js"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function ($) {
-                // delegate calls to data-toggle="lightbox"
-                $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
-                    event.preventDefault();
-                    return $(this).ekkoLightbox({
-                        onShown: function() {
-                            if (window.console) {
-                                return console.log('Checking our the events huh?');
-                            }
-                        },
-            onNavigate: function(direction, itemIndex) {
-                            if (window.console) {
-                                return console.log('Navigating '+direction+'. Current item: '+itemIndex);
-                            }
-            }
-                    });
-                });
-                //Programatically call
-                $('#open-image').click(function (e) {
-                    e.preventDefault();
-                    $(this).ekkoLightbox();
-                });
-                $('#open-youtube').click(function (e) {
-                    e.preventDefault();
-                    $(this).ekkoLightbox();
-                });
-        // navigateTo
-                $(document).delegate('*[data-gallery="navigateTo"]', 'click', function(event) {
-                    event.preventDefault();
-                    var lb;
-                    return $(this).ekkoLightbox({
-                        onShown: function() {
-                            lb = this;
-              $(lb.modal_content).on('click', '.modal-footer a', function(e) {
-                e.preventDefault();
-                lb.navigateTo(2);
-              });
-                        }
-                    });
-                });
-            });
-        </script>
-
-       <!--  END LIGHTBOX SCRIPTS -->
+</footer>
 </body>
-
 </html>
