@@ -1,63 +1,7 @@
 
 "use strict";
-// var entries = [];
-
 
 $(document).ready(getposts);
-
-// 	function getposts(){
-// 	$.getJSON("entries.json", function (data) {
-// 		$.each(data.posts, function (key, value) {
-// 			console.log("key: " + key + " value: ");
-//         	console.log(value);
-//         	var post = "<div id='" + key + "'class='blogPosts'>"
-//         	post += "<small><p class='muted' style='float:left;'>" + value.t + "</p></small><br>";
-//         	post += "<h5>" + value.h + "</h5><p>" + value.c + "</p><hr/></div>";
-        	
-//         	$("#posts").append(post);
-//         		if(data.posts.length - 1 == key){
-//         			$('#posts').append("<div id='cntrl' style='text-align:center;' class='col-sm-12'></div>");
-//         			paginate({page:1, numPosts:data.posts.length});
-//         		}
-
-// 			});
-// 		});
-// 	}
-
-// 	function paginate(obj) {
-// 		var page = obj.page;
-// 		console.log('page= ' + page);
-// 		var numPosts = obj.numPosts;
-// 		console.log('number of posts= ' + numPosts);
-// 		var pageSize = 3;
-// 		$(".blogPosts").hide();
-// 		$(".blogPosts").each(function(n) {
-
-// 			if (n>= pageSize * (page - 1) && n < pageSize * page){
-// 				$(this).show();
-// 				console.log(n);
-// 			}
-// 		});
-// 		if(numPosts > 3) {
-// 				$("#cntrl").empty();
-// 				$("#cntrl").html("");
-// 				if(page > 1) {
-// 					var p = page - 1;
-// 					$("#cntrl").append("<button id='" + p + "' class='bcontrol' name='pp' type='button' style=''>previous</button>");
-// 					$("button.bcontrol[name=pp]").click(function() {
-// 						paginate({page:p, numPosts:numPosts});
-// 					});
-// 				}
-// 				if(Math.ceil(numPosts/pageSize > page)) {
-// 						var n = page + 1;
-// 						$("#cntrl").append("<button id'" + n + "' class='bcontrol' name='nn' type='button' style=''>next</button>");
-// 						$("button.bcontrol[name=nn]").click(function() {
-// 							paginate({page:n, numPosts:numPosts});
-// 						});
-// 				}
-// 		}
-// 	}
-
 
 function getposts(){
    
