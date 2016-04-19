@@ -49,7 +49,7 @@ function pager(curPage, ppp){
 	} else {
 		$('button.next').show();
 	}
-	// if we are on the last page, hide the next button
+	// if you are on the last page, hide the next button
 
 	$('button.prev').attr("id",curPage-1);
 	$('button.next').attr("id",curPage+1);

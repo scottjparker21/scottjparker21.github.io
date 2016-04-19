@@ -54,6 +54,16 @@
 		"t":"11/29/2015",
 		"h":"SVG is neat",
 		"c":"I’ve learned quite a few things at DevCode Camp over the past few months. One thing that really interests me is SVG. It amazes me that we aren’t seeing this everywhere. With so many different screen sizes, to me, it just makes sense to have something that can scale to any size and maintain the quality of the original image. I could see this being especially beneficial if you had complex content on a web page where the user could zoom in to see finer details. I can’t wait until I have some free time to dive a little deeper into SVG."
+		},
+		{
+		"t":"04/18/2016",
+		"h":"Closure in JavaScript takeaways",
+		"c":"While learning JavaScript one thing that has taken me a while to digest is closures. Scope in JavaScript seems much more loose than other languages I’ve worked with so far. The idea that a function can grab variables values from outside the function was alien and scary to me at first. But, the more I looked into it the more I realized just how useful this kind of flexibility could be."
+		},
+		{
+		"t":"04/18/2016",
+		"h":"Objects in JavaScript",
+		"c":"While objects in Javascript are still relatively new to me I’ve formed a few opinions about OOP in JS. The concept of cloning objects seems straight forward at first because JavaScript is such a object driven language. One thing that has been troubling me is settling into my own habits for solving problems with OOP. Because JS is so new to me I absorb the opinions of the tutorials I do and the articles I read. This is where the flexibility of JS has caused me issues in the short-term. Part of me wishes there would be simple problem A is best solved with answer B etc. It feels like having so many ways to tackle a problem while using objects is inhibiting me. I know one day I’ll realize the awesome power that is prototypal inheritance but for the moment It feels unpredictable."
 		}
 	]
 }
