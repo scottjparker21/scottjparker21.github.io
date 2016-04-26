@@ -64,6 +64,16 @@
 		"t":"04/18/2016",
 		"h":"Objects in JavaScript",
 		"c":"While objects in Javascript are still relatively new to me I’ve formed a few opinions about OOP in JS. The concept of cloning objects seems straight forward at first because JavaScript is such a object driven language. One thing that has been troubling me is settling into my own habits for solving problems with OOP. Because JS is so new to me I absorb the opinions of the tutorials I do and the articles I read. This is where the flexibility of JS has caused me issues in the short-term. Part of me wishes there would be simple problem A is best solved with answer B etc. It feels like having so many ways to tackle a problem while using objects is inhibiting me. I know one day I’ll realize the awesome power that is prototypal inheritance but for the moment It feels unpredictable."
+		},
+		{
+		"t":"04/22/2016",
+		"h":"Grunt vs. Gulp",
+		"c":"Recently I had to choose a task builder for a project using MEAN stack. My options were Grunt and Gulp. I chose Gulp but after researching more after the fact I think next time I will go with the former. On paper Gulps advantages are a slight speed advantage and a cleaner API. Grunts main advantage is it’s significantly larger user base. This means more supported plug-ins. Because I am new to programming Grunt would have been the better task builder to get comfortable with. But, I’m willing to give them both a try."
+		},
+		{
+		"t":"04/26/2016",
+		"h":"Comparing MEAN stack to LAMP stack for development",
+		"c":"The most recent project I’ve been working on is running MEAN stack. The last project I completed used a LAMP stack setup. I was curious to find the advantages and disadvantages of both. One thing about LAMP stack is that the operating system is locked to a variant of Linux. MEAN stack has no operating system restrictions. Node.js is lightweight and new but has less plug-in support. An advantage to using LAMP stack is that its been around longer and has more plug-ins supported. I’m excited to be working with MEAN because it uses a single language throughout, it is more flexible, and its lightweight and sexy."
 		}
 	]
 }
