@@ -55,3 +55,10 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.materialbox-caption {
+  line-height: 30px;
+}
+.modal{
+  width: 80%;
+}
