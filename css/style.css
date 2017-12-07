@@ -74,6 +74,10 @@ footer.page-footer {
   }
 }
 
+.fa.fa-envelope-o.fa-4x.sr-contact{
+  color: white;
+}
+
 /*Contact Form*/
 
 .contact-form{ margin-top:15px;}
